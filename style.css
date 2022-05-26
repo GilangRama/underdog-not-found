@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.center {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.invitation {
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 16px 16px;
+}
+
+.invite {
+  margin-top: 50px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
