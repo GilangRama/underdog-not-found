@@ -5,22 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script src="typeWriter.js"></script>
     <title>404Not-Found</title>
   </head>
-  <body>
-    <canvas class="hide" id="idCanvas" width="1080" height="1920"></canvas>
+  <body onload="typeWriter()">
+    <canvas class="hide" id="idCanvas" width="544" height="967"></canvas>
     <img src="logo 1.png" alt="" class="center" />
-    <p class="invitation">Write your name here</p>
+    <p class="invitation" id="title"></p>
 
     <input id="inputText" type="text" class="input" />
     <button
       onclick="getText()"
       type="submit"
-      class=""
+      class="button1"
       style="font-family: monospace"
     >
       Submit
     </button>
+    <footer class="site-footer">
+      <h3 class="invitation">
+        Copyright © 2022
+        <a
+          href="https://www.instagram.com/gggiiilang/"
+          target="_blank"
+          class="link"
+          >Gilang</a
+        >
+        &
+        <a
+          href="https://www.instagram.com/rakhmanfandi/"
+          target="_blank"
+          class="link"
+          >Randi</a
+        >
+      </h3>
+    </footer>
 
     <script src="script.js"></script>
   </body>

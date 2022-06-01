@@ -6,9 +6,9 @@ function draw(text) {
 
   imageObj.onload = function () {
     context.drawImage(imageObj, 0, 0);
-    context.font = "60px Calibri";
+    context.font = "40px Monospace";
     context.fillStyle = "white";
-    context.fillText(text, 550, 960); // left, top
+    context.fillText(text, 250, 490); // left, top
 
     var canvas = document.getElementById("idCanvas");
     var dataURL = canvas.toDataURL();
@@ -26,12 +26,12 @@ function draw(text) {
     }
   };
   imageObj.setAttribute("crossOrigin", "anonymous");
-  imageObj.src = "INVITING PARTY.png";
+  imageObj.src = "invitation-card.png";
 }
 
 function getText(e) {
   var text = document.getElementById("inputText").value;
   draw(text);
   var canvas = document.getElementById("idCanvas");
-  canvas.classList.remove("hide");
+  //   canvas.classList.remove("hide");
 }

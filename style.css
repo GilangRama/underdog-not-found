@@ -15,26 +15,54 @@ body {
 
 .invitation {
   color: white;
-  margin-top: 100px;
+  margin-top: 150px;
   text-align: center;
+  font-weight: bold;
+  font-size: 18px;
   font-family: monospace;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 .input {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding: 16px 16px;
+  padding: 16px 32px;
+  border-radius: 8px;
 }
 
-.invite {
-  margin-top: 50px;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.button1 {
+  display: block;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: medium;
+  background-color: #841f7f;
+  padding: 12px 18px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hide {
   display: none;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.site-footer {
+  margin-top: 200px;
+}
+
+.link {
+  text-decoration: none;
+  color: #841f7f;
+}
+
+#footer-content {
+  background: blue;
 }
